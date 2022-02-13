@@ -1,0 +1,57 @@
+/*Estilo de la pagina web */
+.bg-grey{background-color: grey;}
+/*navbar*/
+#logo{width: 32px;}
+.navbar-mauve{color: black;}
+.bg-grey{background-color: grey;}
+.uppercase{text-transform: uppercase;}
+/*hero section*/
+.image-carousel{color: red;}
+/*section comienzo de la guerra*/
+#comienzo{padding: 1%;
+    text-align:justify;
+    background-color:grey;
+    color: white;
+    border-bottom:5px solid white;}
+#mapa{width: 25%;
+    float:left;
+    margin: 5px;}
+#comienzo h1{text-align: center;
+        letter-spacing: 0.2em;}
+/*section columnas*/
+.bg-white{color: white;}
+#cuatroCol{border-bottom:5px solid white;}
+.bg-grey{background-color: grey;}
+/*section soldados*/
+#Soldado{padding: 1%;
+    text-align:justify;
+    background-color:grey;
+    color: white;}
+#soldadoimagen{width: 9%;
+    float:left;
+    margin: 5px;}
+#Soldado h1{text-align: center;
+        letter-spacing: 0.2em;}
+/*section armas*/
+#armas{color: white;
+    border-bottom:5px solid white;}
+    
+    #armas h1 {font-family: runas;
+                font-size:2em;
+            text-align: center;
+            letter-spacing: 0.2em;}
+    
+    .mitad{box-sizing: border-box;
+            width: 50%;
+            float:left;
+            padding: 2%;}
+    
+            .resetear {clear:both;}
+    
+    #izqda{padding: 30px 2%;}
+    #armasWWII {width: 75%;
+        display: block;
+            margin: auto;}
+/*footer*/
+.bg-black{background-color: black;}
+#contacto p{color: white; text-align: center;}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>II guerra mundial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/Style.css">
+    <link rel="shortcut icon" href="./Images/favicon (4).ico" type="image/x-icon">
+</head>
+<body class="bg-grey">
+<!--Comienza la navbar-->
+<div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-mauve bg-grey uppercase">
+        <div class="container-fluid">
+            <!--Aqui va la marca-->
+        <a class="navbar-brand" href="#"><img id="logo" src="./Images/detail_roman-two-temporary-tattoo.jpg" alt="logo de bootstrap"></a>
+        <!--Icono hamburguesa-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--empiezan los botones-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--Primer boton: inicio-->
+            <li class="nav-item">
+                <a class="nav-link active navbar-mauve" aria-current="page" href="#comienzo">comienzo</a>
+            </li>
+            <!--Segundo boton History-->
+            <li class="nav-item">
+                <a class="nav-link navbar-mauve" href="#cuatroCol">Frentes</a>
+            </li>
+            <!--Tercer boton History-->
+            <li class="nav-item">
+                <a class="nav-link navbar-mauve" href="#Soldado">Soldados</a>
+            </li>
+            <!--Cuarto boton History-->
+            <li class="nav-item">
+                <a class="nav-link navbar-mauve" href="#armas">Armas</a>
+            </li>
+            
+            <!--no tengo items desplegables<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>-->
+            <!--no tendremos secciones ocultas
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+            </ul>-->
+            <!-- Comento el formulario de busqueda porque no tengo hecho el JS
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+        </div>
+        </div>
+    </nav>
+<!--Termina la navbar-->
+<!--inicio hero section-->
+<section id="hero">
+    <!--inicio del carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./Images/Alzando-la-bandera-de-Iwo-Jima.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5 class="image-carousel">IWO JIMA</h5>
+            <p class="image-carousel">SOLDADOS AMERICANOS COLOCANDO LA BANDERA ESTADOUNIDENSA EN IWO JIMA</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./Images/caida de berlin.jpg" class="d-block w-100""  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5 class="image-carousel">BERLIN 1945</h5>
+            <p class="image-carousel">CAIDA DE BERLIN Y ALZAMIENTO DE LA BANDERA SOVIETICA</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./Images/desembarco de normandia.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5 class="image-carousel">DESEMBARCO DE NORMANDIA</h5>
+            <p class="image-carousel">TROPAS AMERICANAS EN EL DIA D</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Final del carousel-->
+</section>
+<!--Final de la hero section-->
+<!--inicio de section comienzo de la guerra(Sin bootstrap 5)-->
+<section id="comienzo">
+<h1>Causas por las que comenzo el conflicto</h1>
+<img id="mapa" src="./Images/mapa de europa.jpg" alt="Mapa europeo antes de la segunda guerra mundial">
+    <p>La Segunda Guerra Mundial fue un conflicto militar global que se desarrolló entre 1939 y 1945. En ella se vieron implicadas la mayor parte de las naciones del mundo, incluidas todas las grandes potencias, así como prácticamente todas las naciones europeas, agrupadas en dos alianzas militares enfrentadas: los aliados de la Segunda Guerra Mundial y las potencias del eje. Fue la mayor contienda bélica de la historia, con más de cien millones de militares movilizados y un estado de «guerra total» en que los grandes contendientes destinaron toda su capacidad económica, militar y científica al servicio del esfuerzo bélico, borrando la distinción entre recursos civiles y militares. Marcada por hechos de enorme repercusión que incluyeron la muerte masiva de civiles —los bombardeos intensivos sobre ciudades y el uso, por única vez, de armas nucleares en un conflicto militar— la Segunda Guerra Mundial fue la más mortífera de la historia con un resultado de entre 50 y 70 millones de víctimas, el 2,5 % de la población mundial.</p>
+        <p>El comienzo del conflicto se suele situar en el 1 de septiembre de 1939, con la invasión alemana de Polonia, cuando el gobierno aleman se decidió a la incorporación de una de sus reivindicaciones expansionistas más delicadas: el pasillo de Danzig, que implicaba la invasión de la mitad occidental de Polonia; la mitad oriental, junto con Estonia, Letonia y Lituania fue ocupada por la Unión Soviética, mientras que Finlandia logró mantener su independencia de los soviéticos (Guerra de Invierno). El Reino Unido y Francia le declararon la guerra a Alemania, que esperaban como una repetición de la guerra de trincheras (Guerra de broma) para la que habían tomado toda clase de precauciones (Línea Maginot) que demostraron ser del todo inútiles. Las maniobras espectaculares de la blitzkrieg (guerra relámpago) proporcionaron en pocos meses a Alemania el control de Noruega, Dinamarca, los Países Bajos, Bélgica y la propia Francia, mientras el ejército británico escapaba in extremis desde las playas de Dunkerque durante la batalla de Francia. La mayor parte del continente europeo estaba ocupado por el ejército alemán o por sus aliados, entre los que destacaba la Italia fascista, cuya aportación militar no fue muy significativa (batalla de los Alpes, guerra greco-italiana).</p>
+</section>
+<!--comienzo de las columnas-->
+<section id="cuatroCol" class="p-4">
+    <h1 class="text-center text-white">Frentes de la segunda guerra mundial</h1>
+    <div class="container">
+        <div class="row align-items-center g-5">
+        <!-- TODO ESTO ESTÁ EN getbootstrap.com > Layout > columns ---->
+        <!-- PARA ESPACIAR EL CONTENIDO DE LAS COLUMNAS, SE USA gx seguido de guión y un número. EL GUTTER ES UN ESPACIADO ENTRE CONTENIDO DE COLUMNAS -->
+        <!-- PARA COLOCAR LAS COLUMNAS ALINEADAS EN VERTICAL, ARRIBA EN ROW, HAY QUE UTILIZAR CLASES DE align-items QUE REGULAN TODAS LAS COLUMNAS JUNTAS, A LA VEZ-->
+        <!-- PARA INDICAR CADA COLUMNA POR SEPARADO: UTILIZAR LAS CLASES: align-self: estas van en cada columna-->
+        <!-- cuidado con usar margin en las columnas: desplaza la distribución del grid -->
+        <div class="col-xs-12 col-md-6 col-lg-3 bg-black">
+            <!--Aqui empieza la primera card-->
+            <div class="card border-0 bg-grey">
+                <img src="./Images/frente-oriental-tn.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Frente oriental</h5>
+                  <p class="card-text">Los países que participaron en la invasión a la Unión Soviética y enviaron cantidades importantes de sus ejércitos a este frente fueron principalmente: Alemania, Rumania, Hungría, Italia, y Finlandia</p>
+                  <a data-bs-toggle="modal" data-bs-target="#leerMas1" class="btn btn-primary">Leer mas</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="leerMas1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="LeerMas1Label">Información</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>El frente oriental de la Segunda Guerra Mundial fue un escenario de conflicto entre las potencias del Eje europeo contra la Unión Soviética (URSS), Polonia y otros aliados, que abarcaban Europa Central, Europa del Este, Europa del Noreste (Bálticos) y el Sudeste de Europa (Balcanes). desde el 22 de junio de 1941 hasta el 9 de mayo de 1945. En la Unión Soviética y algunos de sus estados sucesores se la conoce como la Gran Guerra Patria , mientras que en el resto del mundo se la llama el frente oriental y fue abierto por la Alemania nazi con la Operación Barbarroja el 22 de junio de 1941 —o, desde una consideración más amplia, la invadir Polonia el 1 de septiembre de 1939 (manteniéndose inactivo temporalmente en 1940) hasta 1945 con la conquista por parte de la Unión Soviética de Berlín, la capital de la Alemania .</p>
+                        <p>El frente oriental fue decisivo para determinar el resultado en el teatro de operaciones europeo en la Segunda Guerra Mundial, y finalmente sirvió como la razón principal de la derrota de la Alemania nazi y las naciones del Eje.</p>
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                    
+                </div>
+              </div>
+        </div>
+                                            <!--Aqui termina la primera card-->
+                                            <!--Aqui empieza la segunda card-->
+        <div class="col-xs-12 col-md-6 col-lg-3 bg-black">
+            <div class="card border-0 bg-grey">
+                <img src="./Images/Frente pacifico.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Guerra del pacifico</h5>
+                  <p class="card-text">La Guerra del Pacífico tuvo lugar en el océano Pacífico, sus islas y en Asia Oriental, entre 1941 y 1945. En la actualidad, muchos japoneses usan el término Guerra del Pacífico mientras que otros emplean Gran Guerra de Asia Oriental.</p>
+                  <a data-bs-toggle="modal" data-bs-target="#leerMas2" class="btn btn-primary">Leer mas</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="leerMas2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="LeerMas2Label">Información</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>En 1937, Japón reinició su expansión por China, iniciándose la Segunda Guerra Sino-japonesa. Después de librar dos batallas con la Unión Soviética, con resultados adversos, Japón ocupó la Indochina, colonia francesa, buscando finalizar la larga contienda en suelo de China. Reino Unido, Estados Unidos y otras naciones con intereses en la región respondieron imponiendo un embargo económico que amenazaba con asfixiar al pequeño país. Después de fallidas negociaciones, Japón atacó simultáneamente, sin previa declaración de guerra, a territorios controlados por Estados Unidos, Reino Unido, Tailandia y Países Bajos en diciembre de 1941.</p>
+                        <p>En los siguientes años, Japón continuó lanzando ofensivas en China, sin obtener la rendición del gobierno de Chiang Kai-shek. Los británicos probaron al mismo tiempo ser incapaces de recuperar Birmania, pero lograron detener un ataque de japoneses e hindúes nacionalistas contra la India británica.</p>
+                        <p>El avance estadounidense por el Pacífico logró forzar una gran batalla naval conocida como la batalla del Mar de las Filipinas, donde la Armada nipona sufrió pérdidas irreparables, que fueron explotadas en la batalla del Golfo de Leyte. Desde entonces la superioridad naval estadounidense en el Pacífico fue indiscutible.</p>
+                        <p>Para 1945, los aliados habían recuperado Birmania, Nueva Guinea, Borneo, las Filipinas, las islas Aleutianas y ocupado territorio japonés, Iwo Jima, y ambos bandos se preparaban para prestar batalla en las grandes islas niponas. El lanzamiento de las bombas atómicas en agosto de 1945 coincidió con la invasión soviética de Manchuria, controlada por Japón desde 1931.</p>
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                    
+                </div>
+              </div>
+        </div>
+                                            <!--Aqui termina la segunda card-->
+                                            <!--Aqui empieza la tercera card-->
+        <div class="col-xs-12 col-md-6 col-lg-3 bg-black">
+            <div class="card border-0 bg-grey">
+                <img src="./Images/Batallas norte de africa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Norte de africa</h5>
+                  <p class="card-text">La Campaña en África del Norte fue un frente de la Segunda Guerra Mundial. Tuvo lugar en el desierto de África del Norte, a partir del 10 de junio de 1940 y hasta el 16 de mayo de 1943.</p>
+                  <a data-bs-toggle="modal" data-bs-target="#leerMas3" class="btn btn-primary">Leer mas</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="leerMas3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="LeerMas3Label">Información</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>La campaña se produjo entre las potencias del Eje y las Aliadas. Los esfuerzos de guerra principales fueron dominados por el Reino Unido y su imperio (con sus dominios y colonias Canadá, Australia, Nueva Zelanda, India Británica y Unión Sudafricana) y por exiliados de la Europa ocupada, hasta que los Estados Unidos entraron en la guerra el 11 de mayo, proporcionando ayuda directa a las fuerzas aliadas en el Norte de Áfric</p>
+                        <p>La lucha en el norte de África empezó con la ocupación del Fuerte Capuzzo italiano por fuerzas británicas en junio de 1940. Esto fue seguido por una ofensiva italiana y una contraofensiva británica. Cuando los italianos sufrieron terribles derrotas, el Afrika Korps alemán (mandado por el mariscal de Campo Erwin Rommel) acudió en su ayuda. Después de una serie de batallas de desgaste por el control de Libia y de algunas partes de Egipto, las fuerzas británicas (bajo el mando del general Bernard Montgomery) empujaron a las fuerzas del Eje hacia Túnez.</p>
+                        <p>A mediados de 1942, con los desembarcos aliados de la Operación Torch en el noroeste de África (al mando del general Dwight Eisenhower), y después de algunos enfrentamientos contra las fuerzas de la Francia de Vichy (que posteriormente se unieron a los Aliados), la Commonwealth y las fuerzas estadounidenses llevaron en un movimiento de tenazas a las fuerzas del Eje al norte de Túnez, donde fueron obligadas a rendirse.</p>
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                    
+                </div>
+              </div>
+        </div>
+                                <!--Aqui termina la tercera card-->
+                                <!--Aqui empieza la cuarta card-->
+        <div class="col-xs-12 col-md-6 col-lg-3 bg-black">
+            <div class="card border-0 bg-grey">
+                <img src="./Images/Frente occidental.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Frente occidental</h5>
+                  <p class="card-text">El Frente de la Europa Occidental o Frente Occidental fue el segundo frente europeo en importancia durante la Segunda Guerra Mundial.Fue abierto inesperadamente por Alemania al invadir Noruega, Dinamarca y Francia en 1940, siendo cerrado por las fuerzas conjuntas de los Estados Unidos y Gran Bretaña en 1945.</p>
+                  <a data-bs-toggle="modal" data-bs-target="#leerMas4" class="btn btn-primary">Leer mas</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="leerMas4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="LeerMas4Label">Información</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>La guerra librada en la Europa Occidental durante la Segunda Guerra Mundial puede dividirse en cinco etapas:</p>
+                        <p>Los países que enviaron contingentes importantes de sus ejércitos a este frente fueron: Alemania, Bélgica, Canadá, Dinamarca, Estados Unidos, Francia (Francia Libre y Francia de Vichy), Gran Bretaña, Noruega, Holanda, Italia y Polonia. Tropas de varios países de la Europa Oriental, Latinoamérica y de la Mancomunidad de Naciones también participaron, si bien sus contribuciones no fueron determinantes. Aunque Irlanda fue bombardeada accidentalmente por Alemania, este país nunca abandonó su estado de neutralidad.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                    
+                </div>
+              </div>
+        </div>
+                            <!--Aqui termina la cuarta card-->
+        </div>
+    </div>
+    </section>
+    <!--final de las columnas-->
+    <!--section soldados-->
+    <section id="Soldado">
+        <h1>Soldado americano</h1>
+        <img id="soldadoimagen" src="./Images/soldado americano.jpg" alt="Soldado americano en la segunda guerra mundial">
+            <p>Si por algo se destacó la 101ª División Aerotransportada fue por su uniforme básico, el cual estaba formado por varias piezas que iban desde la guerrera, hasta los guantes de paracaidista. Curiosamente, y debido a que era una unidad de reciente creación, contó con material nuevo o modificado expresamente para sus futuras misiones (algo que hacía que destacasen sobre el resto de los soldados del ejército norteamericano). Leandro Aguilera, miembro del grupo de Recreación Histórica '101 Airborne Girona Reenactment Group' explica de qué partes estaba compuesto el uniforme.</p>
+                <p>La pieza más destacada era el pantalón , el cual era de un color caqui y contaba con unos refuerzos de tela en tonos oliva por encima de las rodillas para evitar roturas (las cuales se producían a la hora de arrastrarse por el campo de batalla). Entre sus características más destacadas contaba con un cordón en la parte superior de los bolsillos para cerrarlos con un nudo y evitar que, durante el salto, se saliese su contenido.</p>
+                <p>La chaqueta era también de color caqui y contaba con refuerzos de tono verde oliva a la altura de los codos. No era raro que los paracaidistas cosieran varios bolsillos más a esta prenda, pues para ellos era vital cargar, cuanto más cosas, mejor. "Les añadían más en la parte de atrás o por dentro (los cuales utilizaban para guardar tabaco)" apunta Aguilera. "Con los paracaidistas de la Segunda Guerra Mundial sucedía lo mismo que hoy en día cuando nos vamos de vacaciones. En el Desembarco de Normandía la mayoría llevaban entre 30 y 45 kilos de peso en equipo sin contar con las armas. Les pasaba lo mismo que a nosotros cuando hacemos un viaje. Nosotros metemos en la maleta un jersey por si hace frío, un bañador por si hace calor Ellos solo dispondrían de aquello con lo que se lanzaban, así que llevaban de todo.</p>
+                <p>Esta necesidad imperiosa de añadir bolsillos para guardar objetos agudizó el ingenio de los paracaidistas de la 101ª. "Uno de los lugares más curiosos para cargar un utensilio era un pequeño bolsillo que enganchaban con una cuerda a la hombrera. Dentro llevaban una pequeña navaja automática muy característica que usaban para cortar la cuerda del paracaidas si este se enganchaba", completa Aguilera.</p>
+                <p>Las botas altas que acompañaban al uniforme M1942 fueron una de las múltiples enseñas de los paracaidistas estadounidenses. Este tono destacaba sobre las del resto de soldados, quienes las portaban negras. Su principal característica es que contaban con 12 agujeros, algo que, nuevamente, marcaba la diferencia sobre el resto de militares del ejército de los Estados Unidos.</p>
+    </section>
+    <!--final section soldados-->
+    <!--section armas-->
+    <section id="armas">
+        <div class="mitad" id="izqda">
+            <h1>Armas soldados americanos</h1>
+        <p>El M1 Garand (formalmente U.S. rifle, caliber .30, M1, Rifle, Caliber .30, M1 o US Rifle, Cal. .30, M1) es un fusil semiautomático de calibre .30 que fue el fusil de servicio estándar de los Estados Unidos durante la Segunda Guerra Mundial y la Guerra de Corea y también vio un servicio limitado durante la Guerra de Vietnam.</p>
+        <p>La M1911 es una pistola semiautomática de acción simple, alimentada por cargador, operada por retroceso directo y que dispara el cartucho .45 ACP.1​ Fue el arma auxiliar de dotación del Ejército estadounidense desde 1911 hasta 1985. Tuvo uso extendido en la Primera Guerra Mundial, Segunda Guerra Mundial, en la Guerra de Corea y en la Guerra de Vietnam.</p>
+        <p>El Thompson era preferido por soldados, criminales, policía y civiles por su ergonomía, tamaño compacto, fiabilidad, elevada cadencia de tiro en modo automático y por emplear el cartucho .45 ACP. Fue utilizado por las Fuerzas Armadas de los Estados Unidos en el transcurso de la Segunda Guerra Mundial y, desde entonces, ha ganado popularidad entre los coleccionistas civiles por su importancia histórica.</p>
+        <p>El fusil automático Browning o BAR (acrónimo del nombre original en inglés Browning Automatic Rifle) forma parte de una serie de fusiles automáticos y ametralladoras ligeras empleados por los Estados Unidos y muchos otros países durante el siglo XX.</p>
+        <p>El M3 es un subfusil estadounidense de calibre 11,43 mm que emplea el cartucho .45 ACP. Entró en servicio en el Ejército estadounidense el 12 de diciembre de 1942 con la designación de United States Submachine Gun, Cal. .45, M3 y empezó a reemplazar a los subfusiles Thompson M1928A1, M1 y M1A1, que iban siendo paulatinamente retirados.</p>
+        </div>
+        <div class="mitad" id="dcha">
+        <img id="armasWWII" src="./Images/armas.jpg" alt="imagen de armas utilizadas por los americanos">
+        </div>
+        <div class="resetear"></div>
+    </section>
+    <!--termina la section de armas-->
+    <!--footer-->
+    <footer id="contacto" class="bg-black">
+        <p>Pagina creada por: Francisco Siles España</p>
+        <p>Ies campanillas-Málaga</p>
+    </footer>
+    <!--final footer-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
